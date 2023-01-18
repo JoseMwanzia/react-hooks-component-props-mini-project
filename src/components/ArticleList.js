@@ -6,7 +6,7 @@ function ArticleList({ posts }) {
   const eachPost = posts.map((post) => {
     return (
       <Article
-        key={post.idw}
+        key={post.id}
         title={post.title}
         preview={post.preview}
         date={post.date}
